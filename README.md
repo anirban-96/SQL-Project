@@ -1,6 +1,6 @@
 # SQL-Project
 ## MS SQL Server
-<img align="right" width="140" height="70" src="https://www.freeiconspng.com/img/11352.jpg">
+<img align="right" width="140" height="70" src="https://www.freeiconspng.com/img/11352.png">
 Microsoft SQL Server is a relational database management system developed by Microsoft.
 Organizations use MS SQL to store and query information about their business operations;
 from inventory to sales, and beyond.
