@@ -5,16 +5,20 @@ Organizations use MS SQL to store and query information about their business ope
 from inventory to sales, and beyond.
 
 ### **Case Study 1**
-[Danny's Dinner](https://8weeksqlchallenge.com/case-study-1/)
+[Data Mart](https://8weeksqlchallenge.com/case-study-5/)
 
-Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. 
-Here three table are used: **Sales** , **Menu** , **Members**
-*Case Study Questions* help us to get insights about the business and make important decisions.
-(1) Insights about Customer Orders and loyal customers
-(2) Mostly sold food item and also first bought item
-(3) Points earned by customer and amount spent
-and many more.
-At the end query returns a Summary table which provides all the relevant details to run the business effectively.
+This case study actually is based on a real life change in Australian retailers where plastic bags were no longer provided for free. Shareholders need help to 
+quantify the impact of this change on the sales performance for Data Mart and its separate business areas.
+The key business question he wants you to know are the following:
+>> What was the quantifiable impact of the changes introduced in June 2020?
+
+>> Which platform, region, segment and customer types were the most impacted by this change?
+
+>> What can we do about future introduction of similar sustainability updates to the business to minimize impact on sales?
+
+For this case study there is only a single table: data_mart.weekly_sales
+
+Serveral advanced functionalities of SQL is used to extract useful insights like Recursive CTE, Pivot Table, CTE clause, Views, Aggregation, etc.
 
 ### **Case Study 2**
 [Pizza Runner](https://8weeksqlchallenge.com/case-study-2/)
@@ -33,6 +37,7 @@ Several SQL Concepts are covered in the about case study
 **Aggeration Functions**
 
 **Window Functions**
+
 **String Functions** (String_split, String_Agg)
 
 **GroupBy and Having**
